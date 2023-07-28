@@ -18,6 +18,9 @@ html {
 }
 
 body {
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
     font-family: proxima-nova, sans-serif;
     color: white;
     margin-bottom: 60px;
@@ -30,8 +33,10 @@ h1 {
     text-transform: uppercase;
     font-weight: 600;
     letter-spacing: .01em;
+    margin-top: 50px;
 }
 
+/* Affects all top-level links */
 a {
     color: whitesmoke;
     font-weight: 400;
@@ -49,10 +54,36 @@ a:hover {
     color: rgb(129, 166, 147);
 }
 
+/* Styles bottom of page links div */
 #links {
     display: flex;
+    width: 100%;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
+/* Removes underline from bottom margin links */
 #links a {
-    margin-right: 10px; /* Optional: Add some space between links */
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+/* Removes the txt dec on links that appear when lists are empty */
+#inner-nav-link a {
+    text-decoration: none;
+}
+
+/* Removes bullets from all lists */
+ul {
+    list-style: none;
+}
+
+/* Removes padding from li/ul */
+ul.client-stylist-link {
+    padding-left: 0;
 }
