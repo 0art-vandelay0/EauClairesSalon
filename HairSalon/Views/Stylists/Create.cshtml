@@ -13,4 +13,8 @@
     @Html.TextBoxFor(model => model.Specialty)
     <input type="submit" value="Add new Stylist" />
 }
-<p>@Html.ActionLink("Show all Stylists", "Index")</p>
+
+<div id="links">
+    <p>@Html.ActionLink("Show all Stylists", "Index")</p>
+    <p>@Html.ActionLink("Back to Home", "Index", "Home")</p>
+</div>
