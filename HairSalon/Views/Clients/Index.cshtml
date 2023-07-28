@@ -11,11 +11,10 @@
         <p>
             Add a Stylist
             <span id="inner-nav-link"
-                >@Html.ActionLink("HERE", "Create", "Stylists")</span
-       >
+                >@Html.ActionLink("HERE", "Create", "Stylists")</span>
         in order to Add Clients.
     </p>
-</di    v>
+</div>
 }
 else
     {    
@@ -23,8 +22,7 @@ else
         @foreach (Client client in Model)
         {
             <li class="list-margins">
-                @Html.ActionLink($"{client.Name}", "Details", new { id = client.ClientId
-        }) | <span id="stylist-marker">@client.Stylist.Name</span>
+                @Html.ActionLink($"{client.Name}", "Details", new { id = client.ClientId}) | <span id="stylist-marker">@client.Stylist.Name</span>
             </li>
         }
     </ul>
