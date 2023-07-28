@@ -34,6 +34,24 @@ h1 {
     font-weight: 600;
     letter-spacing: .01em;
     margin-top: 50px;
+    text-shadow: 2px 2px 30px rgba(0, 0, 0, 0.7);
+}
+
+#home-page-overview {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    font-size: 24px;
+    text-shadow: 1px 5px 30px rgba(0, 0, 0, 1);
+}
+
+#home-page-overview-disclaimer {
+    font-size: 18px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* Affects all top-level links */
@@ -47,6 +65,7 @@ a {
     font-size: 1rem;
     font-family: "Helvetica Neue";
     letter-spacing: .05em;
+    border-color: rgb(150, 150, 150);
     
 }
 
@@ -73,9 +92,24 @@ a:hover {
     text-decoration: none;
 }
 
+/* Styles the div that holds the "no client/stylist" message */
+#empty-value-div {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    text-shadow: 2px 2px 30px rgba(0, 0, 0, 0.7);
+}
+
 /* Removes the txt dec on links that appear when lists are empty */
 #inner-nav-link a {
     text-decoration: none;
+    border-color: grey;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding: 4px;
+    font-weight: bold;
 }
 
 /* Removes bullets from all lists */
