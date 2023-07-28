@@ -7,12 +7,15 @@
 <h1>Client Details</h1>
 <hr />
 <div id="client-deets">
-    <h3>@Html.DisplayNameFor(model => model.Name) : @Html.DisplayFor(model => model.Name)</h3>
-    <h3>@Html.DisplayNameFor(model => model.PhoneNumber) : @Html.DisplayFor(model => model.PhoneNumber)</h3>
+    <h3>@Html.DisplayNameFor(model => model.Name):</h3>
+    <h2>@Html.DisplayFor(model => model.Name)</h2>
+    <br>
+    <h3>@Html.DisplayNameFor(model => model.PhoneNumber):
+    <h2>@Html.DisplayFor(model => model.PhoneNumber)</h2>
 </div>
 
 <div id="links">
-    <p>@Html.ActionLink("Add a Client", "Create", "Client")</p>
+    <p>@Html.ActionLink("Add a Client", "Create", "Clients")</p>
     <p>@Html.ActionLink("Stylists", "Index", "Stylists")</p>
     <p>@Html.ActionLink("Home", "Index")</p>
 </div>
