@@ -12,17 +12,17 @@
 
     @if (@Model.Clients.Count == 0)
             {
-                        <h3>No Clients have been added to this Stylist yet!</h3>
+            <h3>No Clients have been added to this Stylist yet!</h3>
             }
             else
             {
-                        <h3>Clients:</h3>
-                        <ul class="client-stylist-link">
+            <h3>Clients:</h3>
+            <ul class="client-stylist-link">
                     @foreach (Client client in Model.Clients)
                     {
-                                            <li class="list-margins">@Html.ActionLink($"{client.Name}", "Details", "clients", new { id = client.ClientId })</li>
+                        <li class="list-margins">@Html.ActionLink($"{client.Name}", "Details", "clients", new { id = client.ClientId })</li>
                     }
-                        </ul>
+            </ul>
             }
 </div>
 
