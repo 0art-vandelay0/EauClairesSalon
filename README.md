@@ -70,8 +70,8 @@ That's it!
 If the program does not run, try the following:
 
 -   Check that you have the appropriate packages installed to run dotnet
-    -   In your Terminal, enter the following commands:
-        `$ dotnet add package Microsoft.EntityFrameworkCore -v 6.0.0`
+    -   In your Terminal, enter the following commands:<br>
+        `$ dotnet add package Microsoft.EntityFrameworkCore -v 6.0.0`<br>
         `$ dotnet add package Pomelo.EntityFrameworkCore.MySql -v 6.0.0`
 -   Try creating a `global.json` file in the Bakery.Tests dir that contains the following code to override the default version:<br>
     {<br>
