@@ -82,7 +82,7 @@ If the program does not run, try the following:
 
 ## **Known Bugs**
 
--   There is currently no Delete or Edit/Update functionality from within the program.
+-   There is currently neither a Delete nor Edit/Update functionality from within the program.
     To delete or edit, use you RDBMS Software or Querey MySql Server at the command line with your existing local setup.
 
 ## License
